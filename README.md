@@ -1,0 +1,1 @@
+Überwacht den den 3d Drucker ob er online ist oder nicht. Wenn der Drucker online ist wird der RTSP Container gestartet. Wenn der drucker ofline ist wird der Container beendet. Läuft auf Synology mit Portainer. Die Ip adresse und Containernamen und Pfad für die monitor.sh datei müssen an die eigene umgebung angepasst werden. 
