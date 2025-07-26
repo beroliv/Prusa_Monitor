@@ -21,3 +21,5 @@ The script runs on a Synology NAS with Portainer.
 
 Note:
 The printer’s IP address, the container name, and the path to the monitor.sh file must be adjusted to match your specific environment.
+
+https://github.com/jtee3d/prusa_connect_rtsp
