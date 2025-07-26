@@ -1,0 +1,10 @@
+services:
+  prusa-monitor:
+    image: alpine
+    container_name: prusa-monitor
+    restart: always
+    volumes:
+      - /volume1/docker/prusa_monitor:/app
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: ["sh", "-c", "apk add --no-cache iputils docker-cli && /app/monitor.sh"]
+
